@@ -6,7 +6,9 @@ import service.Calculator;
 public class Test extends Calculator
 {
 	public static void main(String args[])
-	{
+	{ 
+System.out.println("sentece to check pull command");
+
 		Scanner sc=new Scanner(System.in);
 	    Calculator c=new Calculator();
 		//System.out.println("Enter two numbers:");
